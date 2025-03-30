@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4f4186d8-61d3-4ce8-9e73-2ae30be77281" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/dto/AdministratorDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/dto/CandidateDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/dto/CarDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/dto/CourseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/dto/InstructorDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/dto/PaymentDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/dto/PlanningDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/dto/SupportDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/mappers/Mappers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drivingSchool-backend/src/test/java/com/lesBaos/drivingSchool_backend/controller/AdministratorControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drivingSchool-backend/src/test/java/com/lesBaos/drivingSchool_backend/controller/CandidateControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drivingSchool-backend/src/test/java/com/lesBaos/drivingSchool_backend/controller/CourseControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drivingSchool-backend/src/test/java/com/lesBaos/drivingSchool_backend/controller/InstructorControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drivingSchool-backend/src/test/java/com/lesBaos/drivingSchool_backend/controller/PaymentControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drivingSchool-backend/src/test/java/com/lesBaos/drivingSchool_backend/controller/PlanningControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drivingSchool-backend/src/test/java/com/lesBaos/drivingSchool_backend/controller/SupportControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drivingSchool-backend/src/test/java/com/lesBaos/drivingSchool_backend/dao/AdministratorRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drivingSchool-backend/src/test/java/com/lesBaos/drivingSchool_backend/dao/CandidateRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drivingSchool-backend/src/test/java/com/lesBaos/drivingSchool_backend/dao/CarRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drivingSchool-backend/src/test/java/com/lesBaos/drivingSchool_backend/data/CandidateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drivingSchool-backend/src/test/java/com/lesBaos/drivingSchool_backend/data/CarTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drivingSchool-backend/src/test/java/com/lesBaos/drivingSchool_backend/data/CourseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drivingSchool-backend/src/test/java/com/lesBaos/drivingSchool_backend/data/InstructorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drivingSchool-backend/src/test/java/com/lesBaos/drivingSchool_backend/data/PaymentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drivingSchool-backend/src/test/java/com/lesBaos/drivingSchool_backend/data/PlanningTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drivingSchool-backend/src/test/java/com/lesBaos/drivingSchool_backend/data/SupportTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivingSchool-backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/drivingSchool-backend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/controller/AdministratorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/controller/AdministratorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/controller/CandidateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/controller/CandidateController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/controller/CarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/controller/CarController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/controller/CourseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/controller/InstructorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/controller/InstructorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/controller/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/controller/PlanningController.java" beforeDir="false" afterPath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/controller/PlanningController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/controller/SupportController.java" beforeDir="false" afterPath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/controller/SupportController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/dao/AdministratorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/dao/AdministratorRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/dao/CandidateRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/dao/CandidateRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/dao/CarRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/dao/CarRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/data/Administrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/data/Administrator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/data/Candidate.java" beforeDir="false" afterPath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/data/Candidate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/data/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/data/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/data/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/data/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/data/Instructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/data/Instructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/data/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/data/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/data/Planning.java" beforeDir="false" afterPath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/data/Planning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/data/Support.java" beforeDir="false" afterPath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/data/Support.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/data/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/data/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/enumerations/TypeCandidate.java" beforeDir="false" afterPath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/enumerations/TypeCandidate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/enumerations/TypeCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/enumerations/TypeCourse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/enumerations/TypeSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/enumerations/TypeSupport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/service/AdministratorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/service/AdministratorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/service/CandidateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/service/CandidateService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/service/CarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/service/CarService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/service/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/service/CourseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/service/InstructorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/service/InstructorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/service/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/service/PaymentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/service/PlanningService.java" beforeDir="false" afterPath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/service/PlanningService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/service/SupportService.java" beforeDir="false" afterPath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/service/SupportService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/serviceImplement/AdministratorServiceImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/serviceImplement/AdministratorServiceImplement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/serviceImplement/CandidateServiceImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/serviceImplement/CandidateServiceImplement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/serviceImplement/CarServiceImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/serviceImplement/CarServiceImplement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/serviceImplement/CourseServiceImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/serviceImplement/CourseServiceImplement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/serviceImplement/InstructorServiceImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/serviceImplement/InstructorServiceImplement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/serviceImplement/PaymentServiceImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/serviceImplement/PaymentServiceImplement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/serviceImplement/PlanningServiceImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/serviceImplement/PlanningServiceImplement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/serviceImplement/SupportImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/drivingSchool-backend/src/main/java/com/lesBaos/drivingSchool_backend/serviceImplement/SupportImplement.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="0" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Enum" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2tCyBIQpTS2W4trgmp6ZSGwEo3o" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.AdministratorControllerTest.executor": "Run",
+    "JUnit.AdministratorRepositoryTest.executor": "Run",
+    "JUnit.AdministratorRepositoryTest.testCreateAdministrator.executor": "Run",
+    "JUnit.AdministratorTest.executor": "Run",
+    "JUnit.AdministratorTest.testEquals.executor": "Run",
+    "JUnit.AdministratorTest.testToString.executor": "Debug",
+    "JUnit.CandidateControllerTest.executor": "Coverage",
+    "JUnit.CandidateTest.executor": "Coverage",
+    "JUnit.CarControllerTest.createCar.executor": "Coverage",
+    "JUnit.CarControllerTest.deleteCar.executor": "Coverage",
+    "JUnit.CarControllerTest.executor": "Coverage",
+    "JUnit.CarControllerTest.findAllCars.executor": "Coverage",
+    "JUnit.CarControllerTest.findCarById.executor": "Coverage",
+    "JUnit.CarControllerTest.updateCar.executor": "Coverage",
+    "JUnit.CarRepositoryTest.executor": "Coverage",
+    "JUnit.CarTest.executor": "Run",
+    "JUnit.CarTest.testToString.executor": "Debug",
+    "JUnit.CourseControllerTest.executor": "Run",
+    "JUnit.CourseTest.executor": "Run",
+    "JUnit.DrivingSchoolBackendApplicationTest.executor": "Coverage",
+    "JUnit.DrivingSchoolBackendApplicationTests.executor": "Coverage",
+    "JUnit.InstructorControllerTest.executor": "Run",
+    "JUnit.InstructorTest.executor": "Run",
+    "JUnit.PaymentControllerTest.executor": "Run",
+    "JUnit.PaymentTest.executor": "Run",
+    "JUnit.PaymentTest.testEquals.executor": "Run",
+    "JUnit.PlanningControllerTest.executor": "Run",
+    "JUnit.PlanningTest.executor": "Run",
+    "JUnit.SupportControllerTest.executor": "Run",
+    "JUnit.SupportTest.executor": "Run",
+    "JUnit.SupportTest.testEquals.executor": "Run",
+    "JUnit.SupportTest.testToString.executor": "Run",
+    "JUnit.UserTest.executor": "Run",
+    "JUnit.com.lesBaos.drivingSchool_backend in drivingSchool-backend.executor": "Coverage",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.DrivingSchoolBackendApplication.executor": "Coverage",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "feature#3-dto-configuration",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/AOUDOU SEHOU/Videos/Spring Boot Security/authentification",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.lesBaos.drivingSchool_backend.data" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.lesBaos.drivingSchool_backend.dao" />
+      <recent name="com.lesBaos.drivingSchool_backend.controller" />
+      <recent name="com.lesBaos.drivingSchool_backend.data" />
+      <recent name="com.lesBaos.drivingSchool_backend.serviceImplement" />
+      <recent name="com.lesBaos.drivingSchool_backend" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.com.lesBaos.drivingSchool_backend in drivingSchool-backend">
+    <configuration name="AdministratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="drivingSchool-backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lesBaos.drivingSchool_backend.data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lesBaos.drivingSchool_backend.data" />
+      <option name="MAIN_CLASS_NAME" value="com.lesBaos.drivingSchool_backend.data.AdministratorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdministratorTest.testEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="drivingSchool-backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lesBaos.drivingSchool_backend.data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lesBaos.drivingSchool_backend.data" />
+      <option name="MAIN_CLASS_NAME" value="com.lesBaos.drivingSchool_backend.data.AdministratorTest" />
+      <option name="METHOD_NAME" value="testEquals" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DrivingSchoolBackendApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="drivingSchool-backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lesBaos.drivingSchool_backend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lesBaos.drivingSchool_backend" />
+      <option name="MAIN_CLASS_NAME" value="com.lesBaos.drivingSchool_backend.DrivingSchoolBackendApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="drivingSchool-backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lesBaos.drivingSchool_backend.data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lesBaos.drivingSchool_backend.data" />
+      <option name="MAIN_CLASS_NAME" value="com.lesBaos.drivingSchool_backend.data.UserTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.lesBaos.drivingSchool_backend in drivingSchool-backend" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="drivingSchool-backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lesBaos.drivingSchool_backend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lesBaos.drivingSchool_backend" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DrivingSchoolBackendApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="drivingSchool-backend" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lesBaos.drivingSchool_backend.DrivingSchoolBackendApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.com.lesBaos.drivingSchool_backend in drivingSchool-backend" />
+        <item itemvalue="JUnit.DrivingSchoolBackendApplicationTests" />
+        <item itemvalue="JUnit.AdministratorTest" />
+        <item itemvalue="JUnit.AdministratorTest.testEquals" />
+        <item itemvalue="JUnit.UserTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4f4186d8-61d3-4ce8-9e73-2ae30be77281" name="Changes" comment="" />
+      <created>1739870214233</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1739870214233</updated>
+      <workItem from="1739870223640" duration="30482000" />
+      <workItem from="1739966228796" duration="341000" />
+      <workItem from="1740260155476" duration="3528000" />
+      <workItem from="1740405104821" duration="164000" />
+      <workItem from="1740817447507" duration="3851000" />
+      <workItem from="1740828414998" duration="1046000" />
+      <workItem from="1741749873645" duration="472000" />
+      <workItem from="1741751701366" duration="1217000" />
+      <workItem from="1742082578253" duration="483000" />
+      <workItem from="1742849661887" duration="145000" />
+      <workItem from="1742850817167" duration="16405000" />
+      <workItem from="1742942416057" duration="8598000" />
+      <workItem from="1742993282508" duration="9296000" />
+      <workItem from="1743056320920" duration="3473000" />
+      <workItem from="1743060506739" duration="1043000" />
+      <workItem from="1743068111642" duration="12714000" />
+      <workItem from="1743099399566" duration="1460000" />
+      <workItem from="1743101815224" duration="5980000" />
+      <workItem from="1743108971422" duration="282000" />
+      <workItem from="1743273592135" duration="1028000" />
+      <workItem from="1743275353512" duration="1076000" />
+      <workItem from="1743288007921" duration="11657000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ClassCircularityError" package="java.lang" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/drivingSchool$CandidateControllerTest.ic" NAME="CandidateControllerTest Coverage Results" MODIFIED="1743290795493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.lesBaos.drivingSchool_backend.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/drivingSchool$CarTest.ic" NAME="CarTest Coverage Results" MODIFIED="1743102235308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.lesBaos.drivingSchool_backend.data.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/drivingSchool$CandidateTest.ic" NAME="CandidateTest Coverage Results" MODIFIED="1742998191358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.lesBaos.drivingSchool_backend.data.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/drivingSchool$com_lesBaos_drivingSchool_backend_in_drivingSchool_backend.ic" NAME="com.lesBaos.drivingSchool_backend in drivingSchool-backend Coverage Results" MODIFIED="1743316494965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.lesBaos.drivingSchool_backend.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/drivingSchool$DrivingSchoolBackendApplication.ic" NAME="DrivingSchoolBackendApplication Coverage Results" MODIFIED="1742950515460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/drivingSchool$CarControllerTest.ic" NAME="CarControllerTest Coverage Results" MODIFIED="1743289979886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.lesBaos.drivingSchool_backend.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/drivingSchool$CarControllerTest_createCar.ic" NAME="CarControllerTest.createCar Coverage Results" MODIFIED="1742943072183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.lesBaos.drivingSchool_backend.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/drivingSchool$DrivingSchoolBackendApplicationTest.ic" NAME="DrivingSchoolBackendApplicationTest Coverage Results" MODIFIED="1742944268894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.lesBaos.drivingSchool_backend.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/drivingSchool$CarRepositoryTest.ic" NAME="CarRepositoryTest Coverage Results" MODIFIED="1743310703417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.lesBaos.drivingSchool_backend.dao.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/drivingSchool$CarControllerTest_updateCar.ic" NAME="CarControllerTest.updateCar Coverage Results" MODIFIED="1742943481909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.lesBaos.drivingSchool_backend.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/drivingSchool$DrivingSchoolBackendApplicationTests.ic" NAME="DrivingSchoolBackendApplicationTests Coverage Results" MODIFIED="1743316226207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.lesBaos.drivingSchool_backend.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/drivingSchool$CarControllerTest_findCarById.ic" NAME="CarControllerTest.findCarById Coverage Results" MODIFIED="1742943701764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.lesBaos.drivingSchool_backend.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/drivingSchool$CarControllerTest_deleteCar.ic" NAME="CarControllerTest.deleteCar Coverage Results" MODIFIED="1742943557854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.lesBaos.drivingSchool_backend.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/drivingSchool$AdministratorControllerTest.ic" NAME="AdministratorControllerTest Coverage Results" MODIFIED="1742861397597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.lesBaos.drivingSchool_backend.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/drivingSchool$CarControllerTest_findAllCars.ic" NAME="CarControllerTest.findAllCars Coverage Results" MODIFIED="1742943807681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.lesBaos.drivingSchool_backend.controller.*</FILTER>
+    </SUITE>
+  </component>
+</project>
